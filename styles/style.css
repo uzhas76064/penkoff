@@ -80,12 +80,13 @@ header {
 }
 
 .tabs-content {
-    background: #f2f4ff url('../bg_tab.png') no-repeat bottom right 135px;
+    background: #f2f4ff url('../images/bg_tab.png') no-repeat bottom right 135px;
     border-radius: 10px;
     padding-top: 40px;
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 43px;
+    margin-bottom: 40px;
 }
 
 .tabs-content__title {
@@ -118,4 +119,92 @@ header {
 .tabs-menu__item:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.section__title {
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #f2f4ff;
+    border-radius: 10px;
+    padding: 23px;
+}
+
+.card__text {
+    max-width: 480px;
+    font-size: 16px;
+}
+
+.card_bottom {
+    background-image: url('../images/coins.png');
+    background-repeat: no-repeat;
+    background-position:  center right 79px;
+    margin-bottom: 40px;
+}
+
+.section__card {
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+.section__card:last-child {
+    margin-right: 0;
+}
+
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-subtitle {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.best-card {
+    width: 240px;
+    height: 260px;
+    padding: 0;
+    position: relative;
+}
+
+.best-card__image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.best-card__image-left {
+    left: 0;
+    transform: translateX(0);
+}
+
+.best-card__image-first {
+    background-image: url('../images/Image_6.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.best-card__image-last {
+    background-image: url('../images/Image_7.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+
+
+.best-card__text {
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 19px;
 }
