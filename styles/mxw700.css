@@ -2,6 +2,11 @@ html {
     font-size: 14px;
 }
 
+.header-wrap {
+    display: block;
+    text-align: center;
+}
+
 .tabs-logo {
     margin: 0 auto;
 }
