@@ -106,12 +106,14 @@ header {
     font-weight: 700;
     border: none;
     background-color: #fcde29;
-    transition-property: background;
+    transition-property: all;
 }
 
 .button:hover {
     transition-delay: 50ms;
-    transition-duration: 100ms;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transform: scale(1.15, 1.15);
     cursor: pointer;
     background: #F1D31E;
 }
@@ -208,3 +210,49 @@ header {
     text-align: center;
     margin-top: 19px;
 }
+
+.earn-title {
+    margin-bottom: 61px;
+    margin-top: 89px;
+}
+
+.earn-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.earn-form__item {
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 7px;
+    background: #f7f8ff;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    padding-left: 21px;
+}
+
+.earn-form__name, .earn-form__birth {
+    min-width: 609px;
+}
+
+.earn-form__phone, .earn-form__email {
+    min-width: 297px;
+}
+
+.technical-info {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.earn-form__phone {
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.earn-form__button {
+    margin-top: 32px;
+    margin-left: 445px;
+}
+
