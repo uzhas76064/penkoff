@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -20,7 +24,7 @@ header {
 }
 
 .logo a{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     color: #95989a;
     text-decoration: none;
@@ -28,6 +32,7 @@ header {
 
 .header-wrap {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -35,7 +40,7 @@ header {
 .nav  {
     flex-basis: 80%;
     color: #95989a;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .nav__link {
@@ -45,7 +50,7 @@ header {
 }
 
 .login {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #95989a;
     text-transform: uppercase;
     text-decoration: none;
@@ -53,6 +58,7 @@ header {
 
 .tabs {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #eaeaea;
@@ -62,7 +68,7 @@ header {
 }
 
 .tabs-logo {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0;
 }
 
@@ -71,7 +77,7 @@ header {
     padding: 0;
     display: flex;
     color: #272727;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .tabs-menu__item {
@@ -90,11 +96,11 @@ header {
 }
 
 .tabs-content__title {
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .tabs-content__text {
-    font-size: 18px;
+    font-size: 1.125rem;
     max-width: 320px;
     margin-bottom: 90px;
 }
@@ -102,7 +108,7 @@ header {
 .button {
     border-radius: 6px;
     padding: 16px 33px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     border: none;
     background-color: #fcde29;
@@ -125,7 +131,7 @@ header {
 
 .section-title {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 400;
 }
 
@@ -141,7 +147,7 @@ header {
 
 .card__text {
     max-width: 480px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .card_bottom {
@@ -162,13 +168,14 @@ header {
 
 .card-wrap {
     display: flex;
+    /*flex-wrap: wrap;*/
     justify-content: space-between;
 }
 
 .section-subtitle {
     display: block;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 32px;
 }
 .best-card {
@@ -223,7 +230,7 @@ header {
 }
 
 .earn-form__item {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     border: none;
     border-radius: 7px;
@@ -234,7 +241,7 @@ header {
 }
 
 .earn-form__name, .earn-form__birth {
-    min-width: 609px;
+   width: 55%;
 }
 
 .earn-form__phone, .earn-form__email {
@@ -264,9 +271,11 @@ header {
 }
 
 .disclaimer {
-    width: 670px;
-    font-size: 12px;
+    width: 60%;
+    font-size: 0.75rem;
     text-align: center;
     margin: 0 auto;
 }
-
+/* @media screen and (max-width: 700px) {
+    
+} */
