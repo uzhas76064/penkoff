@@ -256,3 +256,17 @@ header {
     margin-left: 445px;
 }
 
+.footer {
+    background-color: #f7f7f7;
+    padding-top: 68px;
+    padding-bottom: 52px;
+    margin-top: 105px;
+}
+
+.disclaimer {
+    width: 670px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+}
+
